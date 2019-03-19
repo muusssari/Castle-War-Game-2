@@ -1,0 +1,185 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1047623770190018}
+  m_IsPrefabAsset: 1
+--- !u!1 &1047623770190018
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4618124458264154}
+  - component: {fileID: 114284710378001934}
+  - component: {fileID: 114939658195536510}
+  - component: {fileID: 114940666654299410}
+  - component: {fileID: 114710142936668642}
+  - component: {fileID: 114891340395843784}
+  - component: {fileID: 114835313555512458}
+  - component: {fileID: 114911226785814126}
+  m_Layer: 0
+  m_Name: GameMaster
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4618124458264154
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1047623770190018}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 67.9, y: 3.9, z: 78.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114284710378001934
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1047623770190018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd84c7a73cbcd064ebd0df709108cb4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startGold: 300
+  startWood: 100
+  startStone: 100
+  startFood: 100
+  goldtext: {fileID: 0}
+  woodtext: {fileID: 0}
+  stonetext: {fileID: 0}
+  foodtext: {fileID: 0}
+--- !u!114 &114710142936668642
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1047623770190018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 745980ca019125545a8b64b447ae06b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  grind: {fileID: 0}
+  standardBarricadePrefab: {fileID: 1099960856334912, guid: a09736e41a17c7b42a089cbd4f0757b1,
+    type: 2}
+  standardAcherTowerPrefab: {fileID: 1871388015377662, guid: dba6654e65dfd6741a7e472a47989487,
+    type: 2}
+  soldierPrefab: {fileID: 1699765705957132, guid: d5fe9b7528bf6fe43b66801df64471bb,
+    type: 2}
+  archerPrefab: {fileID: 1640922712669896, guid: 494bf5d5e0f19e94eb961afa4391e5e5,
+    type: 2}
+  minerPrefab: {fileID: 1383204416361236, guid: bef6ac1bcd97d7740a44f8b20056a750,
+    type: 2}
+  catapultPrefab: {fileID: 0}
+  sigh: {fileID: 0}
+  warningtext: {fileID: 0}
+  towerToBuild:
+    prefab: {fileID: 0}
+    cost: 0
+  unitToBuild:
+    prefab: {fileID: 0}
+    cost: 0
+  bases: {fileID: 0}
+  offset: {x: 0, y: 0, z: 0}
+  count: 0
+--- !u!114 &114835313555512458
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1047623770190018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7232a556925cfe4c82fbd47bd69a11a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114891340395843784
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1047623770190018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebb7eb46e9fab2c43ac96d5730506018, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  building: {fileID: 0}
+  navMesh: {fileID: 0}
+  player_base: {fileID: 0}
+  Build: []
+  Player: []
+  MovementMask:
+    serializedVersion: 2
+    m_Bits: 256
+  wait: 0
+  selectedunits: {fileID: 0}
+  Units: []
+--- !u!114 &114911226785814126
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1047623770190018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eefe337e5c90ce6458dec6d4eeee5ac3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114939658195536510
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1047623770190018}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73958c16080041b45a6beb30fea60173, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startGold: 200
+  gold: 0
+--- !u!114 &114940666654299410
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1047623770190018}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 093fd168aacb4fc4e965f85a53728812, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Enemy_Unit_Soldier: {fileID: 1059046722201416, guid: 1030e1cc8b91d2a4a8f018894ba28df3,
+    type: 2}
+  Enemy_Unit_Archer: {fileID: 0}
+  standardBarricadePrefab: {fileID: 0}
+  standardAcherTowerPrefab: {fileID: 0}
+  Enemy_Miner: {fileID: 0}
+  Enemy_Catapult: {fileID: 0}
+  timeBetweenUnits: 10
+  timeBetween: 10
+  countdown: 12
+  amountOfUnits: 0
+  x: 0
+  offset: {x: 0, y: 0, z: 3}
+  enemyRange: 50
+  player_Towers: []
+  enemy_catapults: []

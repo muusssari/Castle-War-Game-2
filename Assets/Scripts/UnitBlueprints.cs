@@ -4,5 +4,8 @@
 public class UnitBlueprints {
 
     public GameObject prefab;
-    public int cost;
+    public int gold;
+	public int wood;
+	public int food;
+	public int stone;
 }

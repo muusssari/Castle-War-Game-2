@@ -5,10 +5,16 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemy
-  - Wall
   - Tower
   - TowerE
   - PlatformE
+  - Mine
+  - Wall
+  - WallE
+  - World
+  - Tree
+  - Stone
+  - FarmTile
   layers:
   - Default
   - TransparentFX
@@ -19,10 +25,10 @@ TagManager:
   - 
   - 
   - World
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Enemy
+  - Building
+  - FarmTiles
   - 
   - 
   - 
